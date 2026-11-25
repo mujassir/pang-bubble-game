@@ -1,0 +1,9 @@
+# Godot 4
+.godot/
+/android/
+/ios_build/
+*.ipa
+*.apk
+*.aab
+export_credentials.cfg
+.DS_Store

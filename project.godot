@@ -1,0 +1,26 @@
+; Engine configuration file.
+; Open this folder with Godot 4.3 or newer.
+
+config_version=5
+
+[application]
+
+config/name="Pang Bubble Game"
+config/description="A simple Pang-style arcade game: split the bouncing bubbles with your harpoon."
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep"
+window/handheld/orientation=4
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.08, 0.08, 0.12, 1)
